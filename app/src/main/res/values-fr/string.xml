@@ -1,0 +1,284 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="app_name_long">Privacy Friendly Weather</string>
+
+    <!-- ###DRAWER###-->
+    <string name="action_help">Aide</string>
+    <string name="action_about">À Propos</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_main">Général</string>
+    <string name="action_manage">Gérer les emplacements</string>
+
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+
+    <!-- ###MAIN### -->
+    <string name="activity_main_icon_descriptor">
+       Une icône qui correspond aux conditions météorologiques actuelles de l\'élément de la liste correspondante.
+    </string>
+    <string name="activity_main_location_not_found">
+        Le serveur a répondu que l\'emplacement n'a pas été trouvé. Si vous êtes sûr que l\'emplacement
+        existe, réessayez. 
+    </string>
+    <string name="activity_main_snackbar_undo_info">L\'élément a été retiré</string>
+    <string name="activity_main_snackbar_undo_button">ANNULER</string>
+
+    <!-- ###TUTORIAL### -->
+    <string name="next">Suivant</string>
+    <string name="skip">Passer</string>
+    <string name="okay">Okay</string>
+    <string name="slide1_heading">Bienvenue!</string>
+    <string name="slide1_text">Privacy Friendly Weather est une application permettant de vérifier la météo actuelle et les prévisions pour votre région.</string>
+    <string name="slide2_heading">Comment faire</string>
+    <string name="slide2_text">Vous pouvez choisir vos propres emplacements et obtenir des informations détaillées sur la météo actuelle. Vous pouvez rechercher la meilleure météo dans votre périmètre ou placer un widget sur votre écran d\'accueil affichant la météo actuelle, des prévisions à trois jours ou à cinq jours </string>
+    <string name="slide3_heading" translatable="false">Github</string>
+    <string name="slide3_text">Le code source de cette application est disponible sur GitHub. Pour plus d\'explications, consultez la page "À propos".</string>
+
+    <!-- ###CARD_HEADINGs### -->
+    <string name="card_details_heading" translatable="false">Détails</string>
+    <string name="card_week_heading">Semaine</string>
+    <string name="card_day_heading">Cours de la journée</string>
+    <string name="card_sun_heading">Soleil</string>
+
+    <!-- ###RADIUS_SEARCH### -->
+    <string name="radius_search_label">Rayon de recherche</string>
+    <string name="radius_search_heading">Trouver la meilleure météo autour d\'un lieu</string>
+    <string name="radius_search_tv_heading">Emplacement (centre du carré de recherche)</string>
+    <string name="radius_search_tv_edge_length">Longueur des bords du carré de recherche</string>
+    <string name="radius_search_tv_num_returns">Nombre de sites à récupérer</string>
+    <string name="radius_search_btn_search">Recherche</string>
+
+    <!-- ###RADIUS_SEARCH_RESULT### -->
+    <string name="radius_search_result_label">Résultat de la recherche</string>
+
+    <!--###HELP###-->
+    <string name="help">Aide</string>
+    <string name="help_overview_heading">Aperçu</string>
+    <string name="help_delete_items_title">Suppression de sites</string>
+    <string name="help_delete_items_text">
+        Les sites localiser peuvent être supprimés de la liste d\'aperçu en utilisant un geste de balayage de gauche à droite ou de droite à gauche .
+    </string>
+    <string name="help_move_items_title">Déplacement des sites</string>
+    <string name="help_move_items_text">
+        Modifier la position des éléments dans la liste d\'aperçus en les touchant un instant, puis en les déplaçant vers le haut ou vers le bas..
+    </string>
+    <string name="help_radius_search_title">Recherche dans un rayon</string>
+    <string name="help_radius_search_text">La recherche par rayon fournit un mécanisme permettant de retrouver les endroits autour d\'un lieu donné où le temps est le plus beau et le plus chaud.</string>
+    <string name="help_category">Aide par catégories</string>
+    <string name="help_privacy_heading">Infos sur la confidentialité</string>
+    <string name="help_permission_internet_heading">Autorisation: accès au réseau </string>
+    <string name="help_permission_internet_description">
+        Dans cette catégorie, l\'autorisation "Internet" est nécessaire car les données météorologiques sont récupérées en faisant des demandes aux serveurs sur Internet. Sans cette autorisation, aucune donnée météo ne peut être reçue.
+    </string>
+    <string name="help_permissions_heading">Autorisation</string>
+    <string name="help_intro">Bienvenue sur la page d\'aide. Cette application vous permet d\'ajouter des sites, d\'afficher la météo actuelle pour ces emplacements ainsi que les prévisions météorologiques.
+         \nDe plus, vous pouvez demander des emplacements avec le meilleur temps autour d\'un emplacement donné.</string>
+
+    <!--###ABOUT###-->
+    <string name="about">À Propos</string>
+    <string name="version_number" translatable="false">Version</string>
+    <string name="about_author">Auteurs: </string>
+    <string name="about_author_names" translatable="false">Patrick Mell, Karola Marky, Christopher Beckmann, Thomas Glaser, Noah Schlegel</string>
+    <string name="about_author_contributors">et des contributeurs.</string>
+    <string name="about_affiliation">En partenariat avec</string>
+    <string name="privacy_friendly">Cette application appartient au groupe des "Privacy Friendly Apps" développées par le groupe de recherche SECUSO. Code source sous licence GPLv3. Droits d\'auteur des images SECUSO et Google Inc.</string>
+    <string name="more_info">Vous trouverez de plus amples informations sur:</string>
+    <string name="url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO-Website</a></string>
+    <string name="github" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-weather-app">Github-Repo</a></string>
+
+    <!-- ###Settings### -->
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="pref_header_general">Général</string>
+    <string name="settings_title_units">Unités</string>
+    <string name="settings_summary_temperature">Définir l\'unité à utiliser pour l\'affichage des températures</string>
+    <string name="settings_title_temperature">Températures</string>
+    <string name="settings_celsius">Celsius</string>
+    <string name="settings_fahrenheit">Fahrenheit</string>
+    <string name="settings_summary_distance">Définir l\'unité à utiliser pour l\'affichage des distances</string>
+    <string name="settings_title_distance">Distances</string>
+    <string name="settings_kilometers">Kilomètres</string>
+    <string name="settings_miles">Miles</string>
+
+    <string name="settings_title_API">Clé de l\'API</string>
+    <string name="settings_description_API">Privacy Friendly Weather reçoit des données du service gratuit openweathermap.org. Ce service est limité à 1000 appels par jour. Vous pouvez enregistrer votre propre clé d\'API gratuitement pour obtenir vos 1 000 appels personnels. Sinon, les appels sont partagés entre tous les utilisateurs de Privacy Friendly Weather.</string>
+    <string name="settings_title_API_key">Entrer la clé d\'API</string>
+    <string name="settings_API_key_default">Aucune clé d\'API fournie</string>
+    <string name="settings_title_API_key_reset">Réinitialiser la clé d\'API</string>
+
+    <string name="widgets_settings">Widgets</string>
+    <string name="fivedaywidgetchoice">Définir les informations supplémentaires pour les widgets de prévisions à 5 jours en bas de page.</string>
+    <string name="fivedaywidget">5-day widget</string>
+    <string name="threedaywidgetchoice_one">Set the first additional information for 3-day widgets at the bottom.</string>
+    <string name="threedaywidget_first">3-day widget (1)</string>
+    <string name="threedaywidgetchoice_two">Set the second additional information for 3-day widgets at the bottom.</string>
+    <string name="threedaywidget_second">3-day widget (2)</string>
+
+    <!-- ###CITY_WEATHER_ACTIVIY### -->
+    <string name="activity_city_weather_label">Weather Overview</string>
+    <string name="activity_city_weather_iv_description">An image that fits the weather category</string>
+    <string name="activity_city_weather_separator" translatable="false">&#160;|&#160;</string>
+    <string name="activity_city_weather_tv_category">Weather:</string>
+    <string name="activity_city_weather_tv_humidity">Humidity:</string>
+    <string name="activity_city_weather_tv_pressure">Pressure:</string>
+    <string name="activity_city_weather_tv_wind_speed">Wind Speed:</string>
+    <string name="activity_city_weather_tv_sunrise">Time Sunrise:</string>
+    <string name="activity_city_weather_tv_sunset">Time Sunset:</string>
+    <string name="activity_city_weather_tv_details">Course of the day ▼</string>
+    <string name="abbreviation_monday">Mo.</string>
+    <string name="abbreviation_tuesday">Tu.</string>
+    <string name="abbreviation_wednesday">We.</string>
+    <string name="abbreviation_thursday">Th.</string>
+    <string name="abbreviation_friday">Fr.</string>
+    <string name="abbreviation_saturday">Sa.</string>
+    <string name="abbreviation_sunday">Su.</string>
+    <string name="info_no_data_for_day">Currently, there are no data available for the selected day.</string>
+
+    <!-- ###CITY_WEATHER_DETAILS_ACTIVITY### -->
+    <string name="activity_city_weather_details_label">Today\'s Weather</string>
+    <string name="activity_city_weather_details_tv_category">Weather:</string>
+    <string name="activity_city_weather_details_tv_temperature">Temperature:</string>
+    <string name="activity_city_weather_details_tv_humidity">Humidity:</string>
+    <string name="activity_city_weather_details_tv_pressure">Pressure:</string>
+    <string name="activity_city_weather_details_tv_wind_speed">Wind Speed:</string>
+    <string name="activity_city_weather_details_tv_rain_volume">Rain Volume:</string>
+    <string name="activity_city_weather_details_tv_rain_volume_na">n/a</string>
+
+    <!-- ###FORECAST_ACTIVITY### -->
+    <string name="activity_forecast_label">Weather Forecast</string>
+
+    <!-- ###DIALOGS### -->
+    <string name="dialog_first_app_title">The First Location</string>
+    <string name="dialog_first_app_start_message">
+        And now add your first Location
+    </string>
+    <string name="dialog_first_app_help_button">View Help</string>
+    <string name="dialog_first_app_close_button">Okay</string>
+
+    <string name="progress_dialog_add_location_title">Setting up database…</string>
+    <string name="progress_dialog_add_location_msg">Please wait a few seconds</string>
+
+    <string name="dialog_add_label">Enter the location to add:</string>
+    <string name="dialog_add_checkbox_save">Save this location permanently</string>
+    <string name="dialog_add_textedit_error">Please enter a valid location!</string>
+    <string name="dialog_add_added_successfully_template">The location was added successfully.</string>
+    <string name="dialog_add_no_city_found">
+        No location was found that matches your input. It is recommended to select one of the
+        items from the dropdown list.
+    </string>
+    <string name="dialog_add_too_many_cities_found">
+        Your input is not unique. It is recommended to select one of the items from the
+        dropdown list.
+    </string>
+    <string name="dialog_add_already_added">
+        This location is already in the list
+    </string>
+    <string name="dialog_add_close_button">Close</string>
+    <string name="dialog_add_add_button">Add</string>
+
+    <!-- ###WEATHER CATEGORIES### -->
+    <string name="weather_category_clear_sky">Clear Sky</string>
+    <string name="weather_category_clouds">Clouds</string>
+    <string name="weather_category_scattered_clouds">Scattered Clouds</string>
+    <string name="weather_category_broken_clouds">Broken Clouds</string>
+    <string name="weather_category_overcast_clouds">Overcast Clouds</string>
+    <string name="weather_category_drizzle_rain">Drizzle Rain</string>
+    <string name="weather_category_light_rain">Light Rain</string>
+    <string name="weather_category_moderate_rain">Moderate Rain</string>
+    <string name="weather_category_rain">Rain</string>
+    <string name="weather_category_thunderstorm">Thunderstorm</string>
+    <string name="weather_category_snow">Snow</string>
+    <string name="weather_category_mist">Mist</string>
+    <string name="weather_category_showerrain">Shower Rain</string>
+    <string name="weather_category_showersnow">Shower Snow</string>
+
+    <!-- ###ERRORS###-->
+    <string name="convert_to_json_error">
+        The retrieved weather data was not well-formed.
+    </string>
+    <string name="insert_into_db_error">
+        There was an error while writing the data into the database.
+    </string>
+    <string name="settings_confirm_title_API_key_reset">Reset API key</string>
+    <string name="settings_confirm_content_API_key_reset">Do you really want to reset to the default API key?</string>
+    <string name="reset">reset</string>
+    <string name="appwidget_text">PFA - Weather</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="error_no_internet">Your Device is not connected to the Internet</string>
+    <string name="settings_interval_one" translatable="false">1 h</string>
+    <string name="settings_interval_two" translatable="false">2 h</string>
+    <string name="settings_interval_six" translatable="false">6 h</string>
+    <string name="settings_interval_twelve" translatable="false">12 h</string>
+    <string name="settings_interval_twentyfour" translatable="false">24 h</string>
+    <string name="settings_intervals">Intervals</string>
+    <string name="settings_update_interval">Update interval</string>
+    <string name="settings_interval_summary">Set the interval of automatic updates</string>
+
+    <!--  ##HELP## -->
+    <string name="help_whatis_answer">Privacy Friendly Weather is an App to check the current Weather and Forecasts for your Locations.</string>
+    <string name="help_whatis">What is Privacy Friendly Weather?</string>
+    <string name="help_privacy_answer">Privacy Friendly Weather uses the permission \"Internet\" to retrieve weather data. It further does not include any tracking mechanisms or advertisement. The two permissions for binding service jobs and keeping the phone awake are needed for background data management of the app.</string>
+    <string name="help_where_from">Where do the weather informations come from?</string>
+    <string name="help_where_from_answer">The information is fetched from the service OpenWeatherMap. If you have your own OpenWeatherMap Key, go to the settings to register it.</string>
+    <string name="error_fetch_forecast">Error while updating Forecast, please try again!</string>
+    <string name="error_fetch_cityList">Error while updating Citylist, please try again!</string>
+    <string name="error_add_city">Error while adding City, please try again!</string>
+    <string name="error_radius_search">Error while doing radius search, please try again!</string>
+    <string name="card_error_heading">Error fetching weather data</string>
+    <string name="card_error_content">Please try to update!</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="activity_city_weather_no_city_selected">There is no city selected. To select a city go to \"Manage locations\".</string>
+    <string name="RainViewer">Rain Radar</string>
+    <string name="action_rainviewer">Rain Viewer</string>
+    <string name="long_press_text">Hold and drag to sort.</string>
+    <string name="swipe_to_delete">Swipe to delete</string>
+    <string name="rain_volume">Rain volume</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="activity_city_weather_tv_wind_direction">Wind direction:</string>
+    <string name="activity_city_weather_tv_rain_volume">Rain volume:</string>
+    <string name="settings_title_forecastChoice">Display options</string>
+    <string name="settings_summary_forecastChoice">Select between 5 day / 3h and 2 day / 1h forecasts</string>
+    <string name="settings_forecastChoice">Forecast</string>
+    <string name="widget_needs_city">A widget still needs %1$s. Please delete all widgets for this city first.</string>
+    <string name="rain60min_text">"Next 60min: "</string>
+    <string name="explanation_owm_key">It appears that you don\'t use a <b>personal weather access key</b> yet. The connection limit of the public key has run out for the day. Please consider quickly registering on OpenWeatherMap, which will give you your own independent access key with 1000 own calls per day.</string>
+    <string name="explanation_owm_key_on_start">It appears that you don\'t use a <b>personal weather access key</b> yet. We recommend using one, as there is a limit for publicly accessible calls. Please consider quickly registering on OpenWeatherMap, which will give you your own independent access key with 1000 own calls per day.</string>
+    <string name="owm_key_link">You can register for free here with an e-mail address: <b>https://home.openweathermap.org/users/sign_up</b></string>
+    <string name="insert_correct_owm_key">Please insert a valid OWM API key. It should be 32 characters long.</string>
+    <string name="tutorial_key_link_heading">OWM API Key</string>
+    <string name="tutorial_owm_key">Please consider creating an account on</string>
+    <string name="tutorial_owm_link"><a href="https://home.openweathermap.org/users/sign_up">OpenWeatherMaps (our data provider).</a></string>
+    <string name="tutorial_owm_2nd_half">With your personal key, the number of requests will not be split between users. Insert your personal key here.</string>
+    <string name="set_key">Set Key</string>
+    <string name="abort">Abort</string>
+    <string name="please_insert_your_personal_key_here_you_can_always_manage_it_in_the_settings">Please insert your personal key here. You can always manage it in the settings.</string>
+    <string name="do_you_really_want_to_continue_with_the_shared_api_key_weather_requests_are_limited_and_will_be_shared_with_other_users_with_a_personal_key_you_can_update_up_to_1000_times_a_day">Do you really want to continue with the shared API key? Weather requests are limited and will be shared with other users. With a personal key, you can update up to 1000 times a day.</string>
+    <string name="use_shared">use shared</string>
+    <string name="use_personal">use personal</string>
+    <string name="no_forecast_warning">No forecast available, times might be wrong.</string>
+    <string name="one_call_limit">Unfortunately, only 20 OneCallAPI requests with the shared key are possible per day.</string>
+    <string name="api_key_not_accepted">The API key was not accepted. If you newly created it, it could take a couple of minutes to hours to register.</string>
+    <string name="no_rain_data">No rain data available</string>
+    <string name="settings_title_speed">Speeds</string>
+    <string name="settings_summary_speed">Set the unit to use for displaying speeds</string>
+    <string name="rain60min_text2" translatable="false">9:05</string>
+    <string name="onedaywidgetchoice">Set the additional value for the one day forecast widget.</string>
+    <string name="onedaywidget">Course of day widget</string>
+    <string name="_6_am">6 am</string>
+    <string name="_10am">10 am</string>
+    <string name="_2pm">2 pm</string>
+    <string name="_6pm">6 pm</string>
+    <string name="_10pm">10 pm</string>
+    <string name="theme_setting_summary">Choose your favorite theme</string>
+    <string name="theme_setting_title">Theme</string>
+    <string name="help_permission_wakelock_heading">Permission: Keep the phone awake</string>
+    <string name="help_permission_bindservice_heading">Permission: Bind to Job Service</string>
+    <string name="help_permission_wakelock_description">To enable asynchronous update requests while keeping the app responsive, the Wakelock permission is needed. The background tasks in weather are not long and will not keep your phone awake for long times. But the permission is needed to run background services in this way.</string>
+    <string name="help_permission_bindservice_description">The weather app enables backups with our Privacy Friendly Backup app. To enable this functionality, the permission to bind with services is needed.</string>
+    <string name="owm_url" translatable="false"><a href="https://openweathermap.org">OpenWeatherMap.org</a></string>
+    <string name="owm_about">Weather data provided by:</string>
+    <string name="owm_logo_copyright">"OpenWeatherMap logo is licensed under\n<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons BY-SA license."</a></string>
+
+
+</resources>
