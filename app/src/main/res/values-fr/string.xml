@@ -106,64 +106,64 @@
     <string name="settings_title_API_key_reset">Réinitialiser la clé d\'API</string>
 
     <string name="widgets_settings">Widgets</string>
-    <string name="fivedaywidgetchoice">Définir les informations supplémentaires pour les widgets de prévisions à 5 jours en bas de page.</string>
-    <string name="fivedaywidget">5-day widget</string>
-    <string name="threedaywidgetchoice_one">Set the first additional information for 3-day widgets at the bottom.</string>
-    <string name="threedaywidget_first">3-day widget (1)</string>
+    <string name="fivedaywidgetchoice">Définir les informations supplémentaires placer en bas pour les widgets de prévisions à 5 jours.</string>
+    <string name="fivedaywidget">Widget à 5 jours</string>
+    <string name="threedaywidgetchoice_one">Définir les informations supplémentaires placer en bas pour les widgets de prévisions à 3 jours.</string>
+    <string name="threedaywidget_first">Widget à 3 jours (1)</string>
     <string name="threedaywidgetchoice_two">Set the second additional information for 3-day widgets at the bottom.</string>
-    <string name="threedaywidget_second">3-day widget (2)</string>
+    <string name="threedaywidget_second">Widget à 3 jours (2)</string>
 
     <!-- ###CITY_WEATHER_ACTIVIY### -->
-    <string name="activity_city_weather_label">Weather Overview</string>
-    <string name="activity_city_weather_iv_description">An image that fits the weather category</string>
+    <string name="activity_city_weather_label">Aperçu de la météo</string>
+    <string name="activity_city_weather_iv_description">Une image correspondant à la catégorie météo</string>
     <string name="activity_city_weather_separator" translatable="false">&#160;|&#160;</string>
-    <string name="activity_city_weather_tv_category">Weather:</string>
-    <string name="activity_city_weather_tv_humidity">Humidity:</string>
-    <string name="activity_city_weather_tv_pressure">Pressure:</string>
-    <string name="activity_city_weather_tv_wind_speed">Wind Speed:</string>
-    <string name="activity_city_weather_tv_sunrise">Time Sunrise:</string>
-    <string name="activity_city_weather_tv_sunset">Time Sunset:</string>
-    <string name="activity_city_weather_tv_details">Course of the day ▼</string>
-    <string name="abbreviation_monday">Mo.</string>
-    <string name="abbreviation_tuesday">Tu.</string>
-    <string name="abbreviation_wednesday">We.</string>
-    <string name="abbreviation_thursday">Th.</string>
-    <string name="abbreviation_friday">Fr.</string>
+    <string name="activity_city_weather_tv_category">Météo:</string>
+    <string name="activity_city_weather_tv_humidity">Humidité:</string>
+    <string name="activity_city_weather_tv_pressure">Pression:</string>
+    <string name="activity_city_weather_tv_wind_speed">Vitesse du vent:</string>
+    <string name="activity_city_weather_tv_sunrise">Aube:</string>
+    <string name="activity_city_weather_tv_sunset">Crépuscule:</string>
+    <string name="activity_city_weather_tv_details">Cours de la journée ▼</string>
+    <string name="abbreviation_monday">Lu.</string>
+    <string name="abbreviation_tuesday">Ma.</string>
+    <string name="abbreviation_wednesday">Me.</string>
+    <string name="abbreviation_thursday">Je.</string>
+    <string name="abbreviation_friday">Ve.</string>
     <string name="abbreviation_saturday">Sa.</string>
-    <string name="abbreviation_sunday">Su.</string>
-    <string name="info_no_data_for_day">Currently, there are no data available for the selected day.</string>
+    <string name="abbreviation_sunday">Di.</string>
+    <string name="info_no_data_for_day">Actuellement, il n\'y a aucune données disponibles pour le jour sélectionné.</string>
 
     <!-- ###CITY_WEATHER_DETAILS_ACTIVITY### -->
-    <string name="activity_city_weather_details_label">Today\'s Weather</string>
-    <string name="activity_city_weather_details_tv_category">Weather:</string>
-    <string name="activity_city_weather_details_tv_temperature">Temperature:</string>
-    <string name="activity_city_weather_details_tv_humidity">Humidity:</string>
-    <string name="activity_city_weather_details_tv_pressure">Pressure:</string>
-    <string name="activity_city_weather_details_tv_wind_speed">Wind Speed:</string>
-    <string name="activity_city_weather_details_tv_rain_volume">Rain Volume:</string>
+    <string name="activity_city_weather_details_label">Météo du jour</string>
+    <string name="activity_city_weather_details_tv_category">Météo:</string>
+    <string name="activity_city_weather_details_tv_temperature">Température:</string>
+    <string name="activity_city_weather_details_tv_humidity">Humidité:</string>
+    <string name="activity_city_weather_details_tv_pressure">Pression:</string>
+    <string name="activity_city_weather_details_tv_wind_speed">Vitesse du vent:</string>
+    <string name="activity_city_weather_details_tv_rain_volume">Précipitation:</string>
     <string name="activity_city_weather_details_tv_rain_volume_na">n/a</string>
 
     <!-- ###FORECAST_ACTIVITY### -->
-    <string name="activity_forecast_label">Weather Forecast</string>
+    <string name="activity_forecast_label">Prévisions Météorologiques</string>
 
     <!-- ###DIALOGS### -->
-    <string name="dialog_first_app_title">The First Location</string>
+    <string name="dialog_first_app_title">Premier Emplacement</string>
     <string name="dialog_first_app_start_message">
-        And now add your first Location
+        Et maintenant, ajoutez votre premier emplacement
     </string>
-    <string name="dialog_first_app_help_button">View Help</string>
+    <string name="dialog_first_app_help_button">Voir l\'aide</string>
     <string name="dialog_first_app_close_button">Okay</string>
 
-    <string name="progress_dialog_add_location_title">Setting up database…</string>
-    <string name="progress_dialog_add_location_msg">Please wait a few seconds</string>
+    <string name="progress_dialog_add_location_title">Configuration de la base de données…</string>
+    <string name="progress_dialog_add_location_msg">Veuillez patienter quelques secondes</string>
 
-    <string name="dialog_add_label">Enter the location to add:</string>
-    <string name="dialog_add_checkbox_save">Save this location permanently</string>
-    <string name="dialog_add_textedit_error">Please enter a valid location!</string>
-    <string name="dialog_add_added_successfully_template">The location was added successfully.</string>
+    <string name="dialog_add_label">Saisissez l\'emplacement à ajouter:</string>
+    <string name="dialog_add_checkbox_save">Sauvegarder cet emplacement de façon permanente</string>
+    <string name="dialog_add_textedit_error">Veuillez entrer un lieu valide!</string>
+    <string name="dialog_add_added_successfully_template">L\'emplacement a été ajouté avec succès.</string>
     <string name="dialog_add_no_city_found">
-        No location was found that matches your input. It is recommended to select one of the
-        items from the dropdown list.
+        Aucun emplacement correspondant à votre saisie n'a été trouvé. Il est recommandé de sélectionner l'un des
+                éléments de la liste déroulante.
     </string>
     <string name="dialog_add_too_many_cities_found">
         Your input is not unique. It is recommended to select one of the items from the
@@ -232,9 +232,9 @@
     <string name="action_rainviewer">Rain Viewer</string>
     <string name="long_press_text">Hold and drag to sort.</string>
     <string name="swipe_to_delete">Swipe to delete</string>
-    <string name="rain_volume">Rain volume</string>
-    <string name="wind">Wind</string>
-    <string name="humidity">Humidity</string>
+    <string name="rain_volume">Précipitation</string>
+    <string name="wind">Vent</string>
+    <string name="humidity">Humidité</string>
     <string name="activity_city_weather_tv_wind_direction">Wind direction:</string>
     <string name="activity_city_weather_tv_rain_volume">Rain volume:</string>
     <string name="settings_title_forecastChoice">Display options</string>
