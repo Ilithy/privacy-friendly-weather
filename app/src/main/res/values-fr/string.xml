@@ -162,57 +162,57 @@
     <string name="dialog_add_textedit_error">Veuillez entrer un lieu valide!</string>
     <string name="dialog_add_added_successfully_template">L\'emplacement a été ajouté avec succès.</string>
     <string name="dialog_add_no_city_found">
-        Aucun emplacement correspondant à votre saisie n'a été trouvé. Il est recommandé de sélectionner l'un des
+        Aucun emplacement correspondant à votre saisie n\'a été trouvé. Il est recommandé de sélectionner l\'un des
                 éléments de la liste déroulante.
     </string>
     <string name="dialog_add_too_many_cities_found">
-        Your input is not unique. It is recommended to select one of the items from the
-        dropdown list.
+        Votre saisie n\'est pas unique. Il est recommandé de sélectionner l\'un des éléments de la
+               liste déroulante.
     </string>
     <string name="dialog_add_already_added">
-        This location is already in the list
+       Ce site est déjà dans la liste
     </string>
-    <string name="dialog_add_close_button">Close</string>
-    <string name="dialog_add_add_button">Add</string>
+    <string name="dialog_add_close_button">Fermer</string>
+    <string name="dialog_add_add_button">Ajouter</string>
 
     <!-- ###WEATHER CATEGORIES### -->
-    <string name="weather_category_clear_sky">Clear Sky</string>
-    <string name="weather_category_clouds">Clouds</string>
-    <string name="weather_category_scattered_clouds">Scattered Clouds</string>
-    <string name="weather_category_broken_clouds">Broken Clouds</string>
-    <string name="weather_category_overcast_clouds">Overcast Clouds</string>
-    <string name="weather_category_drizzle_rain">Drizzle Rain</string>
-    <string name="weather_category_light_rain">Light Rain</string>
-    <string name="weather_category_moderate_rain">Moderate Rain</string>
-    <string name="weather_category_rain">Rain</string>
-    <string name="weather_category_thunderstorm">Thunderstorm</string>
-    <string name="weather_category_snow">Snow</string>
-    <string name="weather_category_mist">Mist</string>
-    <string name="weather_category_showerrain">Shower Rain</string>
-    <string name="weather_category_showersnow">Shower Snow</string>
+    <string name="weather_category_clear_sky">Ciel dégagé</string>
+    <string name="weather_category_clouds">Nuages</string>
+    <string name="weather_category_scattered_clouds">Nuages Épars</string>
+    <string name="weather_category_broken_clouds">Nuages Fragmentés</string>
+    <string name="weather_category_overcast_clouds">Ciel Couvert</string>
+    <string name="weather_category_drizzle_rain">Bruine</string>
+    <string name="weather_category_light_rain">Pluie Légère</string>
+    <string name="weather_category_moderate_rain">Pluie Modéré<string>
+    <string name="weather_category_rain">Pluie</string>
+    <string name="weather_category_thunderstorm">Orage</string>
+    <string name="weather_category_snow">Neige</string>
+    <string name="weather_category_mist">Brume</string>
+    <string name="weather_category_showerrain">Pluie battante</string>
+    <string name="weather_category_showersnow">Averse neigeuse</string>
 
     <!-- ###ERRORS###-->
     <string name="convert_to_json_error">
-        The retrieved weather data was not well-formed.
+        Les données météorologiques récupérées n\'étaient pas bien formatées..
     </string>
     <string name="insert_into_db_error">
-        There was an error while writing the data into the database.
+        Une erreur s\'est produite lors de l\'écriture des données dans la base de données.
     </string>
-    <string name="settings_confirm_title_API_key_reset">Reset API key</string>
-    <string name="settings_confirm_content_API_key_reset">Do you really want to reset to the default API key?</string>
-    <string name="reset">reset</string>
+    <string name="settings_confirm_title_API_key_reset">Réinitialiser la clé d\'API</string>
+    <string name="settings_confirm_content_API_key_reset">Voulez-vous vraiment réinitialiser la clé d\'API par défaut?</string>
+    <string name="reset">réinitialiser</string>
     <string name="appwidget_text">PFA - Weather</string>
-    <string name="configure">Configure</string>
-    <string name="add_widget">Add widget</string>
-    <string name="error_no_internet">Your Device is not connected to the Internet</string>
+    <string name="configure">Configurer</string>
+    <string name="add_widget">Ajouter un widget</string>
+    <string name="error_no_internet">Votre appareil n\'est pas connecté à Internet</string>
     <string name="settings_interval_one" translatable="false">1 h</string>
     <string name="settings_interval_two" translatable="false">2 h</string>
     <string name="settings_interval_six" translatable="false">6 h</string>
     <string name="settings_interval_twelve" translatable="false">12 h</string>
     <string name="settings_interval_twentyfour" translatable="false">24 h</string>
-    <string name="settings_intervals">Intervals</string>
-    <string name="settings_update_interval">Update interval</string>
-    <string name="settings_interval_summary">Set the interval of automatic updates</string>
+    <string name="settings_intervals">Intervales</string>
+    <string name="settings_update_interval">Intervale de mise à jour</string>
+    <string name="settings_interval_summary">Définir l\'intervalle des mises à jour automatiques</string>
 
     <!--  ##HELP## -->
     <string name="help_whatis_answer">Privacy Friendly Weather is an App to check the current Weather and Forecasts for your Locations.</string>
